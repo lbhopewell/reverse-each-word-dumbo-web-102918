@@ -7,7 +7,7 @@ def reverse_each_word(sentence1)
 sentence_reversed.chop
 end
 
-def reverse_each_word(sentence2)
+def reverse_each_word(sentence1)
   new_list = sentence1.split
   sentence_reversed = ""
   new_list.collect do |word|
