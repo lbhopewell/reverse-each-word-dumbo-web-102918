@@ -4,6 +4,6 @@ def reverse_each_word(sentence1)
   new_list.each do |word|
     sentence_reversed << "#{word.reverse!} " 
   end
-sentence_reversed.
+sentence_reversed
 end
 
